@@ -1,0 +1,6 @@
+framework module Pods_BraspagVerifyCard {
+  umbrella header "Pods-BraspagVerifyCard-umbrella.h"
+
+  export *
+  module * { export * }
+}

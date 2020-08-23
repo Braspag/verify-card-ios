@@ -1,0 +1,16 @@
+PODS:
+  - BraspagOAuth (1.0.0)
+
+DEPENDENCIES:
+  - BraspagOAuth
+
+SPEC REPOS:
+  trunk:
+    - BraspagOAuth
+
+SPEC CHECKSUMS:
+  BraspagOAuth: 57a617589fc270cd2542a8fdffe60d605b25f88a
+
+PODFILE CHECKSUM: acabc549155a03a8f9a84c0d97e6c373b212bcb5
+
+COCOAPODS: 1.9.3

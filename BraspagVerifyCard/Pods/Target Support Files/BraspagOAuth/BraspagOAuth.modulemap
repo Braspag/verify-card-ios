@@ -1,0 +1,6 @@
+framework module BraspagOAuth {
+  umbrella header "BraspagOAuth-umbrella.h"
+
+  export *
+  module * { export * }
+}

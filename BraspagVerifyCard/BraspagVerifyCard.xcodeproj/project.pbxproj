@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68C2D06E24E1C4D400A0601E /* BraspagVerifyCard.h in Headers */ = {isa = PBXBuildFile; fileRef = 68C2D06C24E1C4D400A0601E /* BraspagVerifyCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		68C2D07624E1C5D800A0601E /* VerifyCardRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2D07524E1C5D800A0601E /* VerifyCardRequest.swift */; };
+		68C2D07824E1CA6D00A0601E /* VerifyCardResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2D07724E1CA6D00A0601E /* VerifyCardResponse.swift */; };
+		68C2D07A24E1CBE900A0601E /* VerifyCardErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2D07924E1CBE900A0601E /* VerifyCardErrorResponse.swift */; };
+		68C2D07C24E1CC2500A0601E /* VerifyCardResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2D07B24E1CC2500A0601E /* VerifyCardResult.swift */; };
+		68C2D07E24E1CCD900A0601E /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2D07D24E1CCD900A0601E /* Environment.swift */; };
+		68C2D08124E1CD6500A0601E /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2D08024E1CD6500A0601E /* Api.swift */; };
+		68C2D08424E1CDF900A0601E /* DecodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2D08324E1CDF900A0601E /* DecodableExtension.swift */; };
+		68C2D08624E1D17C00A0601E /* VerifyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68C2D08524E1D17C00A0601E /* VerifyCard.swift */; };
+		D6A6F61325D9A2BA2231974A /* Pods_BraspagVerifyCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AD9E41851A3140724107377 /* Pods_BraspagVerifyCard.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		07B44F5F3AA447B30F357FBC /* Pods-BraspagVerifyCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraspagVerifyCard.release.xcconfig"; path = "Target Support Files/Pods-BraspagVerifyCard/Pods-BraspagVerifyCard.release.xcconfig"; sourceTree = "<group>"; };
+		3047A184CAE31F196EF16304 /* Pods-BraspagVerifyCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BraspagVerifyCard.debug.xcconfig"; path = "Target Support Files/Pods-BraspagVerifyCard/Pods-BraspagVerifyCard.debug.xcconfig"; sourceTree = "<group>"; };
+		68C2D06924E1C4D400A0601E /* BraspagVerifyCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BraspagVerifyCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68C2D06C24E1C4D400A0601E /* BraspagVerifyCard.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BraspagVerifyCard.h; sourceTree = "<group>"; };
+		68C2D06D24E1C4D400A0601E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		68C2D07524E1C5D800A0601E /* VerifyCardRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCardRequest.swift; sourceTree = "<group>"; };
+		68C2D07724E1CA6D00A0601E /* VerifyCardResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCardResponse.swift; sourceTree = "<group>"; };
+		68C2D07924E1CBE900A0601E /* VerifyCardErrorResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCardErrorResponse.swift; sourceTree = "<group>"; };
+		68C2D07B24E1CC2500A0601E /* VerifyCardResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCardResult.swift; sourceTree = "<group>"; };
+		68C2D07D24E1CCD900A0601E /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		68C2D08024E1CD6500A0601E /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		68C2D08324E1CDF900A0601E /* DecodableExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodableExtension.swift; sourceTree = "<group>"; };
+		68C2D08524E1D17C00A0601E /* VerifyCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerifyCard.swift; sourceTree = "<group>"; };
+		7AD9E41851A3140724107377 /* Pods_BraspagVerifyCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BraspagVerifyCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68C2D06624E1C4D400A0601E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6A6F61325D9A2BA2231974A /* Pods_BraspagVerifyCard.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		09F9358B8A4A6DC7834BA942 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AD9E41851A3140724107377 /* Pods_BraspagVerifyCard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		57F90CEDB5D2766B8F50B6B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3047A184CAE31F196EF16304 /* Pods-BraspagVerifyCard.debug.xcconfig */,
+				07B44F5F3AA447B30F357FBC /* Pods-BraspagVerifyCard.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		68C2D05F24E1C4D400A0601E = {
+			isa = PBXGroup;
+			children = (
+				68C2D06B24E1C4D400A0601E /* BraspagVerifyCard */,
+				68C2D06A24E1C4D400A0601E /* Products */,
+				57F90CEDB5D2766B8F50B6B5 /* Pods */,
+				09F9358B8A4A6DC7834BA942 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		68C2D06A24E1C4D400A0601E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68C2D06924E1C4D400A0601E /* BraspagVerifyCard.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68C2D06B24E1C4D400A0601E /* BraspagVerifyCard */ = {
+			isa = PBXGroup;
+			children = (
+				68C2D08224E1CDEE00A0601E /* Extensions */,
+				68C2D07F24E1CD4B00A0601E /* Networking */,
+				68C2D07424E1C5BB00A0601E /* Domain */,
+				68C2D06C24E1C4D400A0601E /* BraspagVerifyCard.h */,
+				68C2D06D24E1C4D400A0601E /* Info.plist */,
+				68C2D08524E1D17C00A0601E /* VerifyCard.swift */,
+			);
+			path = BraspagVerifyCard;
+			sourceTree = "<group>";
+		};
+		68C2D07424E1C5BB00A0601E /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				68C2D07524E1C5D800A0601E /* VerifyCardRequest.swift */,
+				68C2D07724E1CA6D00A0601E /* VerifyCardResponse.swift */,
+				68C2D07924E1CBE900A0601E /* VerifyCardErrorResponse.swift */,
+				68C2D07B24E1CC2500A0601E /* VerifyCardResult.swift */,
+				68C2D07D24E1CCD900A0601E /* Environment.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		68C2D07F24E1CD4B00A0601E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				68C2D08024E1CD6500A0601E /* Api.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		68C2D08224E1CDEE00A0601E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				68C2D08324E1CDF900A0601E /* DecodableExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		68C2D06424E1C4D400A0601E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C2D06E24E1C4D400A0601E /* BraspagVerifyCard.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		68C2D06824E1C4D400A0601E /* BraspagVerifyCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68C2D07124E1C4D400A0601E /* Build configuration list for PBXNativeTarget "BraspagVerifyCard" */;
+			buildPhases = (
+				9F75239B95AEBA7925F93F16 /* [CP] Check Pods Manifest.lock */,
+				68C2D06424E1C4D400A0601E /* Headers */,
+				68C2D06524E1C4D400A0601E /* Sources */,
+				68C2D06624E1C4D400A0601E /* Frameworks */,
+				68C2D06724E1C4D400A0601E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BraspagVerifyCard;
+			productName = BraspagVerifyCard;
+			productReference = 68C2D06924E1C4D400A0601E /* BraspagVerifyCard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68C2D06024E1C4D400A0601E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = jnazario.com;
+				TargetAttributes = {
+					68C2D06824E1C4D400A0601E = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+				};
+			};
+			buildConfigurationList = 68C2D06324E1C4D400A0601E /* Build configuration list for PBXProject "BraspagVerifyCard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 68C2D05F24E1C4D400A0601E;
+			productRefGroup = 68C2D06A24E1C4D400A0601E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68C2D06824E1C4D400A0601E /* BraspagVerifyCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68C2D06724E1C4D400A0601E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9F75239B95AEBA7925F93F16 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BraspagVerifyCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68C2D06524E1C4D400A0601E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68C2D08124E1CD6500A0601E /* Api.swift in Sources */,
+				68C2D07A24E1CBE900A0601E /* VerifyCardErrorResponse.swift in Sources */,
+				68C2D08624E1D17C00A0601E /* VerifyCard.swift in Sources */,
+				68C2D08424E1CDF900A0601E /* DecodableExtension.swift in Sources */,
+				68C2D07624E1C5D800A0601E /* VerifyCardRequest.swift in Sources */,
+				68C2D07824E1CA6D00A0601E /* VerifyCardResponse.swift in Sources */,
+				68C2D07C24E1CC2500A0601E /* VerifyCardResult.swift in Sources */,
+				68C2D07E24E1CCD900A0601E /* Environment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		68C2D06F24E1C4D400A0601E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		68C2D07024E1C4D400A0601E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		68C2D07224E1C4D400A0601E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3047A184CAE31F196EF16304 /* Pods-BraspagVerifyCard.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JL34Y44PJ2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BraspagVerifyCard/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnazario.BraspagVerifyCard;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		68C2D07324E1C4D400A0601E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07B44F5F3AA447B30F357FBC /* Pods-BraspagVerifyCard.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = JL34Y44PJ2;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = BraspagVerifyCard/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jnazario.BraspagVerifyCard;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68C2D06324E1C4D400A0601E /* Build configuration list for PBXProject "BraspagVerifyCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C2D06F24E1C4D400A0601E /* Debug */,
+				68C2D07024E1C4D400A0601E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68C2D07124E1C4D400A0601E /* Build configuration list for PBXNativeTarget "BraspagVerifyCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68C2D07224E1C4D400A0601E /* Debug */,
+				68C2D07324E1C4D400A0601E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68C2D06024E1C4D400A0601E /* Project object */;
+}
