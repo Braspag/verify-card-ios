@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E65B8612F38E1190FF942B8374739F8 /* Pods-Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B344FE3095718CCE0B1366B1CA4DBF3 /* BraspagVerifyCard-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 435A8883816945CD6F4AD5D2F5CE6446 /* BraspagVerifyCard-dummy.m */; };
+		3770179EBCF61251C351E550AA59A8E6 /* VerifyCardResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1645F7B7E51D720F0E408CE147286D8B /* VerifyCardResponse.swift */; };
+		3EEF59ED994897A4E2DB153B62A7F823 /* BraspagVerifyCard-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F210F9C7AC4D6843F2B8A8F3392B0842 /* BraspagVerifyCard-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BD9459BE1D8223E579E947AB21E239F /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DE6590872141F5210B14D34B702A9A1 /* AccessToken.swift */; };
+		4E94CC26C997CD63B015E85DA3295F6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F96D240443BC1BE41B2C67B0279C3B3 /* Foundation.framework */; };
+		5F66C3B1C11D83EACC00FA8BCE019DEF /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BEF6566C50F118ACF9A4097C838F4E7 /* Api.swift */; };
+		663A2638C173EA6410234B242FF3ECBE /* BraspagOAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5D907F8BF412B862C01A509BB65AE1 /* BraspagOAuth.framework */; };
+		684C58F800B61BDDACB597848C96EB34 /* BraspagOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EA4F915DAC8C70795B3C4387218AA6E /* BraspagOAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		700BC85754FA0C528638193488548462 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1CD6C3A5C5A5D69ACCBDF078C254DE1 /* Api.swift */; };
+		7F463B31B1B72733D866E133839A6D23 /* DecodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5612A3FD07D8C6139B8CED6C479E781B /* DecodableExtension.swift */; };
+		9C43A6C36EFEB60B39C726832EC0244F /* HttpCredentialsClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E723AE823749BCEFFE01DDD1F1E225 /* HttpCredentialsClient.swift */; };
+		A8730AE53A3DB2C1491BFDCBDF96D419 /* VerifyCardRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97445D3D94E434B705658B8EF77482C /* VerifyCardRequest.swift */; };
+		AAFB7177C178390C6C6C9AAA3EA20BE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F96D240443BC1BE41B2C67B0279C3B3 /* Foundation.framework */; };
+		B2EFD1C8FD2AC6F52DCAEE6834595751 /* DecodableExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1002C3DC2078DC2BB9D0ED5255544FB8 /* DecodableExtension.swift */; };
+		B3110422CFE49FB0831C19C74E1DD177 /* VerifyCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9C3DF796CE05709AF5281F9B2FFE8 /* VerifyCard.swift */; };
+		B67ACCDBF3B3DBFABDE8710A6C695F5F /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 209688F9DCECBBB146B1531B92737A6C /* Environment.swift */; };
+		C0BA1CF19853ED3EE1F4C0422EDD2E56 /* BraspagVerifyCard.h in Headers */ = {isa = PBXBuildFile; fileRef = DBFFA1FF4F27A323742BBA23B70BF6FF /* BraspagVerifyCard.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C2D25D64D7CC05317714E9463298BD7F /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207E0BC43C5F578CDD6AE9C8A3AE99BC /* Environment.swift */; };
+		CDD0411DA6B8536AC27351B492D67557 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F96D240443BC1BE41B2C67B0279C3B3 /* Foundation.framework */; };
+		E06E36C91D3F9951958BD00BA5E97516 /* VerifyCardErrorResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA62A250E1172712BD7805EA2330674E /* VerifyCardErrorResponse.swift */; };
+		E3602DFF78FDA649B8748B2354B9ECF9 /* BraspagOAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD7402E50520B1A386B1911067BD9E1E /* BraspagOAuth-dummy.m */; };
+		E48750D94EBCB76E385455DCF5CC11FE /* BraspagOAuth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4390E778E16D13FDA32122CC7846946D /* BraspagOAuth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ED945B86D52CA3262F9812263FB2B5C7 /* VerifyCardResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C31095AE0CBE46C7EBC31910640A8CE /* VerifyCardResult.swift */; };
+		ED9CB380C7FCB04CC8E1FBB51D542CF5 /* Pods-Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */; };
+		F06396BFB063DF200B72082119457BAA /* AuthClientModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 906BFEE0D598D0120C4E3A19B7B95077 /* AuthClientModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7C4A7FF37F9E14F6940502A55E1B80DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A5954EBA3C11F13C225CCAB46EE7A0F;
+			remoteInfo = BraspagVerifyCard;
+		};
+		87D9BB28640A58EE3EEB910403AE421D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C9F2AC065FA4F243A28682ED22E2D4A;
+			remoteInfo = BraspagOAuth;
+		};
+		D327BB54B3F71436865C3141E6B7139E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C9F2AC065FA4F243A28682ED22E2D4A;
+			remoteInfo = BraspagOAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1002C3DC2078DC2BB9D0ED5255544FB8 /* DecodableExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecodableExtension.swift; path = BraspagOAuth/Extensions/DecodableExtension.swift; sourceTree = "<group>"; };
+		1645F7B7E51D720F0E408CE147286D8B /* VerifyCardResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyCardResponse.swift; path = BraspagVerifyCard/BraspagVerifyCard/Domain/VerifyCardResponse.swift; sourceTree = "<group>"; };
+		1E1DE10B8F316CE661549F6AACCB8F48 /* BraspagOAuth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BraspagOAuth.release.xcconfig; sourceTree = "<group>"; };
+		1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Example.framework; path = "Pods-Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		207E0BC43C5F578CDD6AE9C8A3AE99BC /* Environment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Environment.swift; path = BraspagVerifyCard/BraspagVerifyCard/Domain/Environment.swift; sourceTree = "<group>"; };
+		209688F9DCECBBB146B1531B92737A6C /* Environment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Environment.swift; path = BraspagOAuth/Models/Environment.swift; sourceTree = "<group>"; };
+		243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.release.xcconfig"; sourceTree = "<group>"; };
+		2EA4F915DAC8C70795B3C4387218AA6E /* BraspagOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BraspagOAuth.h; path = BraspagOAuth/BraspagOAuth.h; sourceTree = "<group>"; };
+		31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-Info.plist"; sourceTree = "<group>"; };
+		35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Example.modulemap"; sourceTree = "<group>"; };
+		435A8883816945CD6F4AD5D2F5CE6446 /* BraspagVerifyCard-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BraspagVerifyCard-dummy.m"; sourceTree = "<group>"; };
+		4390E778E16D13FDA32122CC7846946D /* BraspagOAuth-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BraspagOAuth-umbrella.h"; sourceTree = "<group>"; };
+		441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		45E723AE823749BCEFFE01DDD1F1E225 /* HttpCredentialsClient.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HttpCredentialsClient.swift; path = BraspagOAuth/HttpCredentialsClient.swift; sourceTree = "<group>"; };
+		4936C8DC23F7F98B05AEC0F51527C774 /* BraspagVerifyCard.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BraspagVerifyCard.modulemap; sourceTree = "<group>"; };
+		4C31095AE0CBE46C7EBC31910640A8CE /* VerifyCardResult.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyCardResult.swift; path = BraspagVerifyCard/BraspagVerifyCard/Domain/VerifyCardResult.swift; sourceTree = "<group>"; };
+		5612A3FD07D8C6139B8CED6C479E781B /* DecodableExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DecodableExtension.swift; path = BraspagVerifyCard/BraspagVerifyCard/Extensions/DecodableExtension.swift; sourceTree = "<group>"; };
+		5F96D240443BC1BE41B2C67B0279C3B3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6A52E247991D04D6AA51CB4AFC846F15 /* BraspagVerifyCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BraspagVerifyCard.debug.xcconfig; sourceTree = "<group>"; };
+		6BEF6566C50F118ACF9A4097C838F4E7 /* Api.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Api.swift; path = BraspagVerifyCard/BraspagVerifyCard/Networking/Api.swift; sourceTree = "<group>"; };
+		6D20AF14105FCCFA5C1C04A0D5449E8D /* BraspagOAuth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BraspagOAuth.debug.xcconfig; sourceTree = "<group>"; };
+		7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Example-umbrella.h"; sourceTree = "<group>"; };
+		8014012DA348D7FD04F43C2BA35AA3AD /* BraspagOAuth.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = BraspagOAuth.modulemap; sourceTree = "<group>"; };
+		906BFEE0D598D0120C4E3A19B7B95077 /* AuthClientModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthClientModel.swift; path = BraspagOAuth/Models/AuthClientModel.swift; sourceTree = "<group>"; };
+		92E380E062EFEBA7AC7CD83E0B4990FE /* BraspagVerifyCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BraspagVerifyCard.release.xcconfig; sourceTree = "<group>"; };
+		9C5094A91D5E8D4C7DC7E8767B8240BF /* BraspagVerifyCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BraspagVerifyCard.framework; path = BraspagVerifyCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DE6590872141F5210B14D34B702A9A1 /* AccessToken.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AccessToken.swift; path = BraspagOAuth/Models/AccessToken.swift; sourceTree = "<group>"; };
+		9F5D907F8BF412B862C01A509BB65AE1 /* BraspagOAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BraspagOAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Example-frameworks.sh"; sourceTree = "<group>"; };
+		B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		BA62A250E1172712BD7805EA2330674E /* VerifyCardErrorResponse.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyCardErrorResponse.swift; path = BraspagVerifyCard/BraspagVerifyCard/Domain/VerifyCardErrorResponse.swift; sourceTree = "<group>"; };
+		C1CD6C3A5C5A5D69ACCBDF078C254DE1 /* Api.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Api.swift; path = BraspagOAuth/Networking/Api.swift; sourceTree = "<group>"; };
+		CB32222C7A681742D1DE3BB3801AF9BF /* BraspagOAuth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BraspagOAuth-prefix.pch"; sourceTree = "<group>"; };
+		CD7402E50520B1A386B1911067BD9E1E /* BraspagOAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "BraspagOAuth-dummy.m"; sourceTree = "<group>"; };
+		CEE9C3DF796CE05709AF5281F9B2FFE8 /* VerifyCard.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyCard.swift; path = BraspagVerifyCard/BraspagVerifyCard/VerifyCard.swift; sourceTree = "<group>"; };
+		D38002F4BFC7FB5A630325B37CDDA765 /* BraspagOAuth-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BraspagOAuth-Info.plist"; sourceTree = "<group>"; };
+		D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Example-dummy.m"; sourceTree = "<group>"; };
+		DBFFA1FF4F27A323742BBA23B70BF6FF /* BraspagVerifyCard.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BraspagVerifyCard.h; path = BraspagVerifyCard/BraspagVerifyCard/BraspagVerifyCard.h; sourceTree = "<group>"; };
+		E2CF628B22D075A5BE397DDB8A56AC71 /* BraspagVerifyCard-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "BraspagVerifyCard-Info.plist"; sourceTree = "<group>"; };
+		E5F19414A97E0FE4CF57841DD77E0283 /* BraspagVerifyCard-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BraspagVerifyCard-prefix.pch"; sourceTree = "<group>"; };
+		E91F0433A7503631510C6DB0D38B09A1 /* BraspagOAuth.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = BraspagOAuth.framework; path = BraspagOAuth.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E97445D3D94E434B705658B8EF77482C /* VerifyCardRequest.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = VerifyCardRequest.swift; path = BraspagVerifyCard/BraspagVerifyCard/Domain/VerifyCardRequest.swift; sourceTree = "<group>"; };
+		EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F210F9C7AC4D6843F2B8A8F3392B0842 /* BraspagVerifyCard-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "BraspagVerifyCard-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		284F5C13639799A83B70C50C700FFB2B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663A2638C173EA6410234B242FF3ECBE /* BraspagOAuth.framework in Frameworks */,
+				AAFB7177C178390C6C6C9AAA3EA20BE5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9B118D9D37B51F9A03D3AD566983D560 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E94CC26C997CD63B015E85DA3295F6E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE4F0D9814E82FB019528844D06BD410 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD0411DA6B8536AC27351B492D67557 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		418C88069824FB8A58FD79A3EB4C1CDC /* BraspagOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				9DE6590872141F5210B14D34B702A9A1 /* AccessToken.swift */,
+				C1CD6C3A5C5A5D69ACCBDF078C254DE1 /* Api.swift */,
+				906BFEE0D598D0120C4E3A19B7B95077 /* AuthClientModel.swift */,
+				2EA4F915DAC8C70795B3C4387218AA6E /* BraspagOAuth.h */,
+				1002C3DC2078DC2BB9D0ED5255544FB8 /* DecodableExtension.swift */,
+				209688F9DCECBBB146B1531B92737A6C /* Environment.swift */,
+				45E723AE823749BCEFFE01DDD1F1E225 /* HttpCredentialsClient.swift */,
+				72BE3A0A226083E0889C9011C5E09B8D /* Support Files */,
+			);
+			name = BraspagOAuth;
+			path = BraspagOAuth;
+			sourceTree = "<group>";
+		};
+		48207BE3CAE7B614B175A9A226C09BB5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5F96D240443BC1BE41B2C67B0279C3B3 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		492644F4D8B33B7F2DD27B073460F556 /* BraspagVerifyCard */ = {
+			isa = PBXGroup;
+			children = (
+				6BEF6566C50F118ACF9A4097C838F4E7 /* Api.swift */,
+				DBFFA1FF4F27A323742BBA23B70BF6FF /* BraspagVerifyCard.h */,
+				5612A3FD07D8C6139B8CED6C479E781B /* DecodableExtension.swift */,
+				207E0BC43C5F578CDD6AE9C8A3AE99BC /* Environment.swift */,
+				CEE9C3DF796CE05709AF5281F9B2FFE8 /* VerifyCard.swift */,
+				BA62A250E1172712BD7805EA2330674E /* VerifyCardErrorResponse.swift */,
+				E97445D3D94E434B705658B8EF77482C /* VerifyCardRequest.swift */,
+				1645F7B7E51D720F0E408CE147286D8B /* VerifyCardResponse.swift */,
+				4C31095AE0CBE46C7EBC31910640A8CE /* VerifyCardResult.swift */,
+				D1E64D8E7862BF5B5B861F1237AF4FEC /* Support Files */,
+			);
+			name = BraspagVerifyCard;
+			path = BraspagVerifyCard;
+			sourceTree = "<group>";
+		};
+		4F9B1BE997FE6F2CEB29BBBBAF4BD761 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F5D907F8BF412B862C01A509BB65AE1 /* BraspagOAuth.framework */,
+				48207BE3CAE7B614B175A9A226C09BB5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		72BE3A0A226083E0889C9011C5E09B8D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8014012DA348D7FD04F43C2BA35AA3AD /* BraspagOAuth.modulemap */,
+				CD7402E50520B1A386B1911067BD9E1E /* BraspagOAuth-dummy.m */,
+				D38002F4BFC7FB5A630325B37CDDA765 /* BraspagOAuth-Info.plist */,
+				CB32222C7A681742D1DE3BB3801AF9BF /* BraspagOAuth-prefix.pch */,
+				4390E778E16D13FDA32122CC7846946D /* BraspagOAuth-umbrella.h */,
+				6D20AF14105FCCFA5C1C04A0D5449E8D /* BraspagOAuth.debug.xcconfig */,
+				1E1DE10B8F316CE661549F6AACCB8F48 /* BraspagOAuth.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BraspagOAuth";
+			sourceTree = "<group>";
+		};
+		9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */ = {
+			isa = PBXGroup;
+			children = (
+				35C305D3797C284E6F5BAA1D3E6F9BF8 /* Pods-Example.modulemap */,
+				441854E35F81731E63E53DC7E4EEAD9D /* Pods-Example-acknowledgements.markdown */,
+				EA21B344259B58996DB73382B1B1521F /* Pods-Example-acknowledgements.plist */,
+				D6D7C498FA339E02BD53ECB8916CEA8E /* Pods-Example-dummy.m */,
+				AFECBC24E09D0D25F822C27BD944AFD4 /* Pods-Example-frameworks.sh */,
+				31C1D37707DFAA5E6A164BCC07834264 /* Pods-Example-Info.plist */,
+				7825A90E082A1582EB16256B0E722B3F /* Pods-Example-umbrella.h */,
+				B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */,
+				243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */,
+			);
+			name = "Pods-Example";
+			path = "Target Support Files/Pods-Example";
+			sourceTree = "<group>";
+		};
+		9DCA878F915C9538FC2CB76B6D57CB81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E91F0433A7503631510C6DB0D38B09A1 /* BraspagOAuth.framework */,
+				9C5094A91D5E8D4C7DC7E8767B8240BF /* BraspagVerifyCard.framework */,
+				1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9E197BF481AB64C0024C670D2CF73DB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				418C88069824FB8A58FD79A3EB4C1CDC /* BraspagOAuth */,
+				492644F4D8B33B7F2DD27B073460F556 /* BraspagVerifyCard */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9BDBD95ED116334D1B2835202D8D3060 /* Pods-Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4F9B1BE997FE6F2CEB29BBBBAF4BD761 /* Frameworks */,
+				A9E197BF481AB64C0024C670D2CF73DB /* Pods */,
+				9DCA878F915C9538FC2CB76B6D57CB81 /* Products */,
+				CE2E825F08D3AD0FD76E6D78D7512ED0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D1E64D8E7862BF5B5B861F1237AF4FEC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4936C8DC23F7F98B05AEC0F51527C774 /* BraspagVerifyCard.modulemap */,
+				435A8883816945CD6F4AD5D2F5CE6446 /* BraspagVerifyCard-dummy.m */,
+				E2CF628B22D075A5BE397DDB8A56AC71 /* BraspagVerifyCard-Info.plist */,
+				E5F19414A97E0FE4CF57841DD77E0283 /* BraspagVerifyCard-prefix.pch */,
+				F210F9C7AC4D6843F2B8A8F3392B0842 /* BraspagVerifyCard-umbrella.h */,
+				6A52E247991D04D6AA51CB4AFC846F15 /* BraspagVerifyCard.debug.xcconfig */,
+				92E380E062EFEBA7AC7CD83E0B4990FE /* BraspagVerifyCard.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/BraspagVerifyCard";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		07B99B830F51C69566C62B68536AD1F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EEF59ED994897A4E2DB153B62A7F823 /* BraspagVerifyCard-umbrella.h in Headers */,
+				C0BA1CF19853ED3EE1F4C0422EDD2E56 /* BraspagVerifyCard.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7DF36266B94D424B89CB9FBB32E458F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E65B8612F38E1190FF942B8374739F8 /* Pods-Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4882F7A01B5BB5EB6C6998AEF86E3B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E48750D94EBCB76E385455DCF5CC11FE /* BraspagOAuth-umbrella.h in Headers */,
+				684C58F800B61BDDACB597848C96EB34 /* BraspagOAuth.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A2A43D9A42C7E0748C2408C4C9870C7 /* Build configuration list for PBXNativeTarget "Pods-Example" */;
+			buildPhases = (
+				A7DF36266B94D424B89CB9FBB32E458F /* Headers */,
+				951D8F13CFB61357B7B386198EFA748F /* Sources */,
+				DE4F0D9814E82FB019528844D06BD410 /* Frameworks */,
+				F636B17B670D13E3A9ADA89DE7E12621 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7D17A07C3AFCC990DC05E0B4DC90F88 /* PBXTargetDependency */,
+				C7925D13A7DCC966FED4079F1AFFF953 /* PBXTargetDependency */,
+			);
+			name = "Pods-Example";
+			productName = "Pods-Example";
+			productReference = 1F667CC0E19EAF34E5A4119E2121F585 /* Pods_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0C9F2AC065FA4F243A28682ED22E2D4A /* BraspagOAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6841B35233C883D1DE477D3A9BE9BD3F /* Build configuration list for PBXNativeTarget "BraspagOAuth" */;
+			buildPhases = (
+				C4882F7A01B5BB5EB6C6998AEF86E3B0 /* Headers */,
+				6E169758DAFB1E7E2F2DB73CC81341DF /* Sources */,
+				9B118D9D37B51F9A03D3AD566983D560 /* Frameworks */,
+				B358FA53640E9FD2F4AFC05C5B168783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BraspagOAuth;
+			productName = BraspagOAuth;
+			productReference = E91F0433A7503631510C6DB0D38B09A1 /* BraspagOAuth.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6A5954EBA3C11F13C225CCAB46EE7A0F /* BraspagVerifyCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D2A24AE1AF0DE69F83AAA3D1FFF0796D /* Build configuration list for PBXNativeTarget "BraspagVerifyCard" */;
+			buildPhases = (
+				07B99B830F51C69566C62B68536AD1F3 /* Headers */,
+				DB6BA71441F2B71C29C22D451201A8A3 /* Sources */,
+				284F5C13639799A83B70C50C700FFB2B /* Frameworks */,
+				249D9CD3BF7879D844E8A0E9218C9A57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B6966F34C91EF5279F5C3623953569D5 /* PBXTargetDependency */,
+			);
+			name = BraspagVerifyCard;
+			productName = BraspagVerifyCard;
+			productReference = 9C5094A91D5E8D4C7DC7E8767B8240BF /* BraspagVerifyCard.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9DCA878F915C9538FC2CB76B6D57CB81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C9F2AC065FA4F243A28682ED22E2D4A /* BraspagOAuth */,
+				6A5954EBA3C11F13C225CCAB46EE7A0F /* BraspagVerifyCard */,
+				0AEE99A309977BD12A049FF48AF9BA4B /* Pods-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		249D9CD3BF7879D844E8A0E9218C9A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B358FA53640E9FD2F4AFC05C5B168783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F636B17B670D13E3A9ADA89DE7E12621 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E169758DAFB1E7E2F2DB73CC81341DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BD9459BE1D8223E579E947AB21E239F /* AccessToken.swift in Sources */,
+				700BC85754FA0C528638193488548462 /* Api.swift in Sources */,
+				F06396BFB063DF200B72082119457BAA /* AuthClientModel.swift in Sources */,
+				E3602DFF78FDA649B8748B2354B9ECF9 /* BraspagOAuth-dummy.m in Sources */,
+				B2EFD1C8FD2AC6F52DCAEE6834595751 /* DecodableExtension.swift in Sources */,
+				B67ACCDBF3B3DBFABDE8710A6C695F5F /* Environment.swift in Sources */,
+				9C43A6C36EFEB60B39C726832EC0244F /* HttpCredentialsClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		951D8F13CFB61357B7B386198EFA748F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED9CB380C7FCB04CC8E1FBB51D542CF5 /* Pods-Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB6BA71441F2B71C29C22D451201A8A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F66C3B1C11D83EACC00FA8BCE019DEF /* Api.swift in Sources */,
+				1B344FE3095718CCE0B1366B1CA4DBF3 /* BraspagVerifyCard-dummy.m in Sources */,
+				7F463B31B1B72733D866E133839A6D23 /* DecodableExtension.swift in Sources */,
+				C2D25D64D7CC05317714E9463298BD7F /* Environment.swift in Sources */,
+				B3110422CFE49FB0831C19C74E1DD177 /* VerifyCard.swift in Sources */,
+				E06E36C91D3F9951958BD00BA5E97516 /* VerifyCardErrorResponse.swift in Sources */,
+				A8730AE53A3DB2C1491BFDCBDF96D419 /* VerifyCardRequest.swift in Sources */,
+				3770179EBCF61251C351E550AA59A8E6 /* VerifyCardResponse.swift in Sources */,
+				ED945B86D52CA3262F9812263FB2B5C7 /* VerifyCardResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B6966F34C91EF5279F5C3623953569D5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BraspagOAuth;
+			target = 0C9F2AC065FA4F243A28682ED22E2D4A /* BraspagOAuth */;
+			targetProxy = 87D9BB28640A58EE3EEB910403AE421D /* PBXContainerItemProxy */;
+		};
+		C7925D13A7DCC966FED4079F1AFFF953 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BraspagVerifyCard;
+			target = 6A5954EBA3C11F13C225CCAB46EE7A0F /* BraspagVerifyCard */;
+			targetProxy = 7C4A7FF37F9E14F6940502A55E1B80DB /* PBXContainerItemProxy */;
+		};
+		E7D17A07C3AFCC990DC05E0B4DC90F88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = BraspagOAuth;
+			target = 0C9F2AC065FA4F243A28682ED22E2D4A /* BraspagOAuth */;
+			targetProxy = D327BB54B3F71436865C3141E6B7139E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C2B7655BEEF10BB2D2082504198838B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D20AF14105FCCFA5C1C04A0D5449E8D /* BraspagOAuth.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BraspagOAuth/BraspagOAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BraspagOAuth/BraspagOAuth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BraspagOAuth/BraspagOAuth.modulemap";
+				PRODUCT_MODULE_NAME = BraspagOAuth;
+				PRODUCT_NAME = BraspagOAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2B88A1A9D010169A4A4DD5590E56F30F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A52E247991D04D6AA51CB4AFC846F15 /* BraspagVerifyCard.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BraspagVerifyCard/BraspagVerifyCard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BraspagVerifyCard/BraspagVerifyCard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BraspagVerifyCard/BraspagVerifyCard.modulemap";
+				PRODUCT_MODULE_NAME = BraspagVerifyCard;
+				PRODUCT_NAME = BraspagVerifyCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		324F2D31DBE949A4F3C04CACF124122B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92E380E062EFEBA7AC7CD83E0B4990FE /* BraspagVerifyCard.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BraspagVerifyCard/BraspagVerifyCard-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BraspagVerifyCard/BraspagVerifyCard-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BraspagVerifyCard/BraspagVerifyCard.modulemap";
+				PRODUCT_MODULE_NAME = BraspagVerifyCard;
+				PRODUCT_NAME = BraspagVerifyCard;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		816007ADA0F77227F047F5B0B39C56C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 243410B9535472556EA4BB6DBC133A0D /* Pods-Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example/Pods-Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		91024D649706DE2F22C4AAA77AA961C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C7BFEC7B52E9CC1A814496E652D96E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CD99D391562B884AAE33AAE93D4056E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B45138496B85A072654D1D0F8EBBEDE5 /* Pods-Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Example/Pods-Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Example/Pods-Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FAD8686A0D2B36016A0BB0D8813BC311 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E1DE10B8F316CE661549F6AACCB8F48 /* BraspagOAuth.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/BraspagOAuth/BraspagOAuth-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/BraspagOAuth/BraspagOAuth-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/BraspagOAuth/BraspagOAuth.modulemap";
+				PRODUCT_MODULE_NAME = BraspagOAuth;
+				PRODUCT_NAME = BraspagOAuth;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A2A43D9A42C7E0748C2408C4C9870C7 /* Build configuration list for PBXNativeTarget "Pods-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD99D391562B884AAE33AAE93D4056E7 /* Debug */,
+				816007ADA0F77227F047F5B0B39C56C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91024D649706DE2F22C4AAA77AA961C2 /* Debug */,
+				C7BFEC7B52E9CC1A814496E652D96E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6841B35233C883D1DE477D3A9BE9BD3F /* Build configuration list for PBXNativeTarget "BraspagOAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C2B7655BEEF10BB2D2082504198838B /* Debug */,
+				FAD8686A0D2B36016A0BB0D8813BC311 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D2A24AE1AF0DE69F83AAA3D1FFF0796D /* Build configuration list for PBXNativeTarget "BraspagVerifyCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B88A1A9D010169A4A4DD5590E56F30F /* Debug */,
+				324F2D31DBE949A4F3C04CACF124122B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

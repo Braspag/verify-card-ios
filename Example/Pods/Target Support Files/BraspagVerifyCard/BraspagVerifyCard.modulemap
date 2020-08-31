@@ -1,0 +1,6 @@
+framework module BraspagVerifyCard {
+  umbrella header "BraspagVerifyCard-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,20 @@
+PODS:
+  - BraspagOAuth (1.0.0)
+  - BraspagVerifyCard (0.0.1):
+    - BraspagOAuth
+
+DEPENDENCIES:
+  - BraspagVerifyCard
+
+SPEC REPOS:
+  trunk:
+    - BraspagOAuth
+    - BraspagVerifyCard
+
+SPEC CHECKSUMS:
+  BraspagOAuth: 57a617589fc270cd2542a8fdffe60d605b25f88a
+  BraspagVerifyCard: 6e29628165b68095bd2f3653d15d487e3d697332
+
+PODFILE CHECKSUM: 6a914cf566b5cfe68bf4c02ebd8c38c807456ea5
+
+COCOAPODS: 1.10.0.beta.2
