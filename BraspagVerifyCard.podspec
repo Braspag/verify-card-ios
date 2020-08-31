@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   spec.platform     = :ios, "9.0"
-  spec.source       = { :git => "git@github.com:Braspag/verify-card-ios.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/Braspag/verify-card-ios.git", :tag => "#{spec.version}" }
   spec.swift_version = "5.0"
   spec.ios.deployment_target = '9.0'
 
