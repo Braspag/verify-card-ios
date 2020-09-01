@@ -15,6 +15,7 @@ class ViewController: UITableViewController {
     @IBOutlet weak var txtCardNumber: UITextField!
     @IBOutlet weak var txtDate: UITextField!
     @IBOutlet weak var txtCvv: UITextField!
+    @IBOutlet weak var txtBrand: UITextField!
     
     @IBOutlet weak var swDebit: UISwitch!
     @IBOutlet weak var swCredit: UISwitch!
@@ -40,9 +41,18 @@ class ViewController: UITableViewController {
     }
     
     @IBAction func validateCard(sender: UIButton) {
-        let request = VerifyCardRequest()
-        request.
-        sdk.verify(request: <#T##VerifyCardRequest#>, onCompletion: <#T##(VerifyCardResult<VerifyCardResponse>) -> Void#>)
+        let cardType = swDebit.isOn ? CardType.DebitCard : CardType.CreditCard
+        
+        let card = Card(cardNumber: txtCardNumber.text,
+                        holder: txtName.text,
+                        expirationDate: txtDate.text,
+                        securityCode: txtCvv.text,
+                        brand: txtBrand.text,
+                        type: cardType)
+        let request = VerifyCardRequest(provider: "Cielo30", card: card)
+        sdk.verify(request: request) { (response) in
+            
+        }
     }
 
 }

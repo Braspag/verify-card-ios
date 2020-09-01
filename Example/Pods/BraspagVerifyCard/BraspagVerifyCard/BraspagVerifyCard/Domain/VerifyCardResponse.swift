@@ -12,7 +12,7 @@ public class VerifyCardResponse: NSObject, Codable {
     var providerReturnMessage: String?
     var binData: BinData?
     
-    init(status: Int?, providerReturnCode: String?, providerReturnMessage: String?, binData: BinData?) {
+    public init(status: Int?, providerReturnCode: String?, providerReturnMessage: String?, binData: BinData?) {
         self.status = status
         self.providerReturnCode = providerReturnCode
         self.providerReturnMessage = providerReturnMessage
@@ -32,7 +32,7 @@ public class BinData: NSObject, Codable {
     var cardBin: String?
     var lastFourDigits: String?
     
-    init(provider: String?,
+    public init(provider: String?,
          cardType: String?,
          foreignCard: Bool?,
          code: String?,

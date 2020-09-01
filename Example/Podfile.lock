@@ -1,6 +1,6 @@
 PODS:
   - BraspagOAuth (1.0.0)
-  - BraspagVerifyCard (0.0.3):
+  - BraspagVerifyCard (0.0.4):
     - BraspagOAuth
 
 DEPENDENCIES:
@@ -13,7 +13,7 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   BraspagOAuth: 57a617589fc270cd2542a8fdffe60d605b25f88a
-  BraspagVerifyCard: ca0fe5231c752bf68a5a15a5936f7a2952ac5cc6
+  BraspagVerifyCard: 2f250062dfda81469904970a8ff6af96c064053b
 
 PODFILE CHECKSUM: 6a914cf566b5cfe68bf4c02ebd8c38c807456ea5
 
