@@ -6,7 +6,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Braspag Silent Order Post Demo-->
+        <!--Braspag Verify Card Demo-->
         <scene sceneID="b7y-EX-WpG">
             <objects>
                 <tableViewController id="R2A-TC-peF" customClass="ViewController" customModule="Example" customModuleProvider="target" sceneMemberID="viewController">
@@ -152,7 +152,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="135"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cartão protegido?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0A-qs-23b">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Débito" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0A-qs-23b">
                                                     <rect key="frame" x="20" y="20" width="305" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="Qd7-XV-RNq"/>
@@ -161,10 +161,13 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fN8-Kj-hmQ">
+                                                <switch opaque="NO" tag="1" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fN8-Kj-hmQ">
                                                     <rect key="frame" x="345" y="14.5" width="51" height="31"/>
+                                                    <connections>
+                                                        <action selector="swChangedWithSender:" destination="R2A-TC-peF" eventType="valueChanged" id="LeS-hD-WTu"/>
+                                                    </connections>
                                                 </switch>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Consulta bin?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iE0-Oy-8Bx">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crédito" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iE0-Oy-8Bx">
                                                     <rect key="frame" x="20" y="58" width="305" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="CTh-pZ-Gz8"/>
@@ -173,38 +176,24 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="htO-H7-lDD">
+                                                <switch opaque="NO" tag="2" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="htO-H7-lDD">
                                                     <rect key="frame" x="345" y="52.5" width="51" height="31"/>
-                                                </switch>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zero auth" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cbq-tb-OmT">
-                                                    <rect key="frame" x="20" y="96" width="305" height="20"/>
-                                                    <constraints>
-                                                        <constraint firstAttribute="height" constant="20" id="EU8-ZO-ZGI"/>
-                                                    </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="E1A-k1-9fn">
-                                                    <rect key="frame" x="345" y="90.5" width="51" height="31"/>
+                                                    <connections>
+                                                        <action selector="swChangedWithSender:" destination="R2A-TC-peF" eventType="valueChanged" id="zee-Tt-Tmn"/>
+                                                    </connections>
                                                 </switch>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="htO-H7-lDD" firstAttribute="trailing" secondItem="fN8-Kj-hmQ" secondAttribute="trailing" id="3m2-1J-xTV"/>
-                                                <constraint firstItem="E1A-k1-9fn" firstAttribute="centerY" secondItem="cbq-tb-OmT" secondAttribute="centerY" id="9dc-q8-cv6"/>
                                                 <constraint firstItem="htO-H7-lDD" firstAttribute="leading" secondItem="iE0-Oy-8Bx" secondAttribute="trailing" constant="20" id="LeQ-gL-A1b"/>
                                                 <constraint firstItem="iE0-Oy-8Bx" firstAttribute="leading" secondItem="L0A-qs-23b" secondAttribute="leading" id="Sqn-ov-8E0"/>
                                                 <constraint firstItem="fN8-Kj-hmQ" firstAttribute="leading" secondItem="L0A-qs-23b" secondAttribute="trailing" constant="20" id="Vz1-5Y-68M"/>
                                                 <constraint firstItem="fN8-Kj-hmQ" firstAttribute="centerY" secondItem="L0A-qs-23b" secondAttribute="centerY" id="eDC-lC-hh8"/>
-                                                <constraint firstItem="E1A-k1-9fn" firstAttribute="trailing" secondItem="htO-H7-lDD" secondAttribute="trailing" id="jrW-8w-2Fp"/>
                                                 <constraint firstItem="htO-H7-lDD" firstAttribute="centerY" secondItem="iE0-Oy-8Bx" secondAttribute="centerY" id="lRP-YT-u3m"/>
                                                 <constraint firstItem="L0A-qs-23b" firstAttribute="top" secondItem="z9s-k5-url" secondAttribute="top" constant="20" id="n5f-X2-JU6"/>
                                                 <constraint firstItem="L0A-qs-23b" firstAttribute="leading" secondItem="z9s-k5-url" secondAttribute="leading" constant="20" id="oE6-MT-RjB"/>
-                                                <constraint firstItem="cbq-tb-OmT" firstAttribute="top" secondItem="iE0-Oy-8Bx" secondAttribute="bottom" constant="18" id="opt-Vy-8Nn"/>
                                                 <constraint firstItem="iE0-Oy-8Bx" firstAttribute="top" secondItem="L0A-qs-23b" secondAttribute="bottom" constant="18" id="r7i-F0-aGs"/>
-                                                <constraint firstItem="cbq-tb-OmT" firstAttribute="leading" secondItem="iE0-Oy-8Bx" secondAttribute="leading" id="wrA-uE-q72"/>
                                                 <constraint firstAttribute="trailing" secondItem="fN8-Kj-hmQ" secondAttribute="trailing" constant="20" id="xnM-hM-yRl"/>
-                                                <constraint firstItem="E1A-k1-9fn" firstAttribute="leading" secondItem="cbq-tb-OmT" secondAttribute="trailing" constant="20" id="xuM-HZ-1cw"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -269,13 +258,12 @@
                             <outlet property="delegate" destination="R2A-TC-peF" id="Bgp-bn-GUu"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Braspag Silent Order Post Demo" id="Aod-bf-F27"/>
+                    <navigationItem key="navigationItem" title="Braspag Verify Card Demo" id="Aod-bf-F27"/>
                     <connections>
                         <outlet property="btnTest" destination="Yn2-rq-bGc" id="aAY-U5-yzA"/>
                         <outlet property="loading" destination="AnP-hy-ksh" id="P8s-cM-lbe"/>
-                        <outlet property="swBinQuery" destination="htO-H7-lDD" id="y7q-8z-YpW"/>
-                        <outlet property="swProtectedCard" destination="fN8-Kj-hmQ" id="MbJ-he-zVD"/>
-                        <outlet property="swZeroAuth" destination="E1A-k1-9fn" id="IdT-Xt-K0z"/>
+                        <outlet property="swCredit" destination="htO-H7-lDD" id="RIV-9M-6Lm"/>
+                        <outlet property="swDebit" destination="fN8-Kj-hmQ" id="DG4-IU-ZzD"/>
                         <outlet property="txtCardNumber" destination="bf7-pF-RGL" id="QxJ-ba-Hdf"/>
                         <outlet property="txtCvv" destination="xhD-ds-1OU" id="E7I-Cg-ypA"/>
                         <outlet property="txtDate" destination="wlG-53-c0c" id="4o1-FU-9gu"/>

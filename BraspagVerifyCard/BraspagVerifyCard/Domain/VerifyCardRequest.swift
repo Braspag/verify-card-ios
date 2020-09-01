@@ -10,7 +10,7 @@ public class VerifyCardRequest: NSObject, Codable {
     var provider: String?
     var card: Card?
     
-    init(provider: String?, card: Card?) {
+    public init(provider: String?, card: Card?) {
         self.provider = provider
         self.card = card
     }
@@ -24,7 +24,7 @@ public class Card: NSObject, Codable {
     var brand: String?
     var type: CardType?
     
-    init(cardNumber: String?,
+    public init(cardNumber: String?,
          holder: String?,
          expirationDate: String?,
          securityCode: String?,

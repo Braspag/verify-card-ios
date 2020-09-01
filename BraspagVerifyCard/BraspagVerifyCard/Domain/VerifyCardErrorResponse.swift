@@ -9,7 +9,7 @@
 public class VerifyCardErrorResponse: NSObject, Codable {
     var code, message: String?
     
-    init(code: String?, message: String?) {
+    public init(code: String?, message: String?) {
         self.code = code
         self.message = message
     }

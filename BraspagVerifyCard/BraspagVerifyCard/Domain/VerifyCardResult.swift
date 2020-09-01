@@ -11,7 +11,7 @@ public class VerifyCardResult<T: Codable>: NSObject, Codable {
     var statusCode: Int
     var errors: [VerifyCardErrorResponse]?
     
-    init(result: T?, statusCode: Int, errors: [VerifyCardErrorResponse]?) {
+    public init(result: T?, statusCode: Int, errors: [VerifyCardErrorResponse]?) {
         self.result = result
         self.statusCode = statusCode
         self.errors = errors

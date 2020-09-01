@@ -35,7 +35,12 @@ protocol ApiProtocol {
         let merchant = parameters?["merchantid"] as! String
         urlRequest?.allHTTPHeaderFields = ["Authorization": "Bearer \(credentials ?? "")", "MerchantId": merchant, "Content-Type": "application/json"]
         
-        let postData = "grant_type=client_credentials".data(using: .utf8)
+        guard let hasRequest = parameters?["request"] as? VerifyCardRequest else {
+            completion(nil, "É necessário informar os dados do cartão")
+            return
+        }
+        
+        let postData = try? JSONEncoder().encode(hasRequest)
         urlRequest?.httpBody = postData
         
         urlRequest?.httpMethod = "POST"
