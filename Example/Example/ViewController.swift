@@ -20,12 +20,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var loading: UIActivityIndicatorView!
     @IBOutlet weak var txtResult: UITextView!
     
-    private var sdk: VerifyCardProtocol!
+    private var sdk: VerifyCard!
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        sdk = VerifyCard.instantiate(accessToken: "", merchantId: "", clientId: "", clientSecret: "", environment: .sandbox) as! VerifyCardProtocol
+        sdk = VerifyCard.instantiate(merchantId: "MERCHANT-ID",
+                                     clientId: "CLIENT-ID",
+                                     clientSecret: "CLIENT-SECRET",
+                                     environment: .sandbox)
     }
 
 
