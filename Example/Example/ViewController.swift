@@ -29,9 +29,15 @@ class ViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        sdk = VerifyCard.instantiate(merchantId: "MERCHANT-ID",
-                                     clientId: "CLIENT-ID",
-                                     clientSecret: "CLIENT-SECRET",
+        txtName.text = "Nome de teste"
+        txtCardNumber.text = "1234123412341234"
+        txtDate.text = "11/2025"
+        txtCvv.text = "987"
+        txtBrand.text = "Visa"
+        
+        sdk = VerifyCard.instantiate(merchantId: "2A946384-03CB-4A38-A930-0A252B403380",
+                                     clientId: "eeb1230a-d756-4bc4-bf92-87ce18a00d2f",
+                                     clientSecret: "RdhID4KOY1HsSsuCFU3pmtJO2DhYqwJo5xNkxNATOh8=",
                                      environment: .sandbox)
     }
 
@@ -41,6 +47,12 @@ class ViewController: UITableViewController {
     }
     
     @IBAction func validateCard(sender: UIButton) {
+        self.view.endEditing(true)
+        
+        txtResult.text = ""
+        loading.startAnimating()
+        btnTest.setTitle("", for: .normal)
+        
         let cardType = swDebit.isOn ? CardType.DebitCard : CardType.CreditCard
         
         let card = Card(cardNumber: txtCardNumber.text,
@@ -51,9 +63,26 @@ class ViewController: UITableViewController {
                         type: cardType)
         let request = VerifyCardRequest(provider: "Cielo30", card: card)
         sdk.verify(request: request) { (response) in
-            
+            DispatchQueue.main.async {
+                self.stopLoading()
+                do {
+                    let jsonData = try JSONEncoder().encode(response)
+                    let json = String(data: jsonData, encoding: .utf8)
+                    
+                    self.txtResult.text = json
+                    
+                } catch let ex {
+                    self.txtResult.text = ex.localizedDescription
+                }
+                
+                self.tableView.scrollToRow(at: IndexPath(item: 5, section: 0), at: .top, animated: true)
+            }
         }
     }
-
+    
+    func stopLoading() {
+        self.loading.stopAnimating()
+        btnTest.setTitle("Testar", for: .normal)
+    }
 }
 
